@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages:"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Receirved"
+        android:layout_below="@id/judul"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/judul3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/judul2"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/judul4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo Siswa algo2"
+        android:textStyle="italic"
+        android:layout_below="@id/judul3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/judul5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments:"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/judul4"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/judul6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda Sudah Terkoneksi"
+        android:textStyle="italic"
+        android:layout_below="@id/judul5"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="Back"
+        android:text="Back" />
+
+</LinearLayout>
